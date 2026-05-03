@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Café Lilou – À la française. Artisan pastries, fine French cuisine & the charm of Paris in the heart of Bahrain.">
+  <title>Café Lilou | French Restaurant Bahrain</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+</head>
+<body>
+
+  <div id="loader"><div class="spinner"></div></div>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">CAFÉ LILOU</a>
+    <ul class="nav-links">
+      <li><a href="index.html" class="active">Home</a></li>
+      <li><a href="menu.html">Menu</a></li>
+      <li><a href="about.html">About</a></li>
+      <li><a href="reservation.html">Reservations</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="reservation.html" class="nav-cta">Réserver</a></li>
+    </ul>
+    <button class="hamburger" aria-label="Menu"><span></span><span></span><span></span></button>
+  </nav>
+
+  <section class="hero">
+    <canvas id="hero-canvas"></canvas>
+    <div class="hero-overlay"></div>
+    <div class="hero-content">
+      <p class="hero-label">Seef District, Bahrain</p>
+      <h1 class="hero-title">Un Petit Goût<br>de Paris</h1>
+      <p class="hero-subtitle">Indulge in hand‑crafted viennoiseries, classic French dishes, and an ambiance that whispers romance.</p>
+      <div class="hero-buttons">
+        <a href="reservation.html" class="btn btn-primary">Book a Table</a>
+        <a href="menu.html" class="btn btn-outline">Explore the Menu</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section about-teaser">
+    <div class="container">
+      <div class="about-grid reveal">
+        <div class="about-text">
+          <span class="section-label">Notre Histoire</span>
+          <h2>The Art of French Living</h2>
+          <p>Café Lilou was born from a passion for Parisian café culture — the clink of porcelain, the aroma of fresh croissants, and conversations that linger for hours. Located in the elegant Seef District, our restaurant blends timeless French recipes with the warmth of Bahraini hospitality.</p>
+          <p>Our pastry chefs arrive before dawn to prepare buttery viennoiseries, while our kitchen brigade crafts classics like coq au vin and bouillabaisse with a modern touch.</p>
+          <a href="about.html" class="btn btn-outline">Our Story</a>
+        </div>
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=800&q=80" alt="Elegant French café interior">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal"><span class="section-label">Signature Delights</span><h2>Chef's Favorites</h2></div>
+      <div class="menu-grid">
+        <div class="menu-card reveal">
+          <img src="https://images.unsplash.com/photo-1509365465985-25d11c17e812?w=600&q=80" alt="Croissant">
+          <div class="menu-card-content"><h4>Croissant au Beurre</h4><p>Flaky, golden layers of pure AOP butter — baked every hour.</p><span class="price">2.5 BHD</span></div>
+        </div>
+        <div class="menu-card reveal">
+          <img src="https://images.unsplash.com/photo-1551218808-94e220e084d2?w=600&q=80" alt="Onion Soup">
+          <div class="menu-card-content"><h4>Soupe à l'Oignon</h4><p>Caramelised onion soup with Gruyère crouton, just like in Les Halles.</p><span class="price">5 BHD</span></div>
+        </div>
+        <div class="menu-card reveal">
+          <img src="https://images.unsplash.com/photo-1470337458703-46ad1756a187?w=600&q=80" alt="Rose cocktail">
+          <div class="menu-card-content"><h4>Lilou Rosé Spritz</h4><p>Provence rosé, elderflower, fresh raspberries, and a touch of sparkle.</p><span class="price">7 BHD</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="section-header reveal"><span class="section-label">Ambiance</span><h2>À l'intérieur de Lilou</h2></div>
+      <div class="gallery-grid">
+        <img class="reveal" src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=600&q=80" alt="Café seating">
+        <img class="reveal" src="https://images.unsplash.com/photo-1559339352-11d035aa65de?w=600&q=80" alt="Candlelit dinner">
+        <img class="reveal" src="https://images.unsplash.com/photo-1572116469696-31de0f17cc34?w=600&q=80" alt="Pastry counter">
+        <img class="reveal" src="https://images.unsplash.com/photo-1424847651672-bf20a4b0982b?w=600&q=80" alt="Chef's touch">
+      </div>
+    </div>
+  </section>
+
+  <section class="section" style="background: var(--bg-secondary);">
+    <div class="container">
+      <div class="section-header reveal"><span class="section-label">L'amour des Clients</span><h2>Guest Impressions</h2></div>
+      <div class="testimonial-cards">
+        <div class="testimonial-card reveal">
+          <p class="quote">"Café Lilou is a slice of Paris in Manama. The croissants are exceptional, and the onion soup… I could eat it every day."</p>
+          <p class="author">— Amal R., Manama</p>
+        </div>
+        <div class="testimonial-card reveal">
+          <p class="quote">"I celebrated my birthday here and they made me feel like royalty. The rosé spritz was divine, and the staff were so charming!"</p>
+          <p class="author">— Claire & Marc, Paris</p>
+        </div>
+        <div class="testimonial-card reveal">
+          <p class="quote">"An absolute gem. The atmosphere, the music, the presentation — everything is meticulously crafted. Worth every fils."</p>
+          <p class="author">— Omar H., Dubai</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reservation-cta">
+    <div class="container reveal">
+      <span class="section-label">Rejoignez‑nous</span>
+      <h2>Ready for a French Escape?</h2>
+      <p>Reserve your table at Café Lilou and let us transport you to a Parisian terrace.</p>
+      <a href="reservation.html" class="btn btn-primary">Réserver une Table</a>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="footer-grid">
+      <div class="footer-col"><h4>Café Lilou</h4><p>Block 428 Al Aali Mall, 2210 Road No 2827, Seef District, Bahrain</p></div>
+      <div class="footer-col"><h4>Hours</h4><p>Daily: 7:00 – 23:00</p></div>
+      <div class="footer-col"><h4>Contact</h4><p><a href="https://wa.me/97317583939" target="_blank">+973 1758 3939</a></p><p>bonjour@cafelilou.bh</p></div>
+      <div class="footer-col"><h4>Follow</h4><div class="social-links"><a href="#" aria-label="Instagram">📷</a><a href="#" aria-label="Facebook">📘</a></div></div>
+    </div>
+    <div class="footer-bottom"><p>&copy; 2025 <span class="accent">Café Lilou</span>. Fait avec amour.</p></div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+                                                        </html>
